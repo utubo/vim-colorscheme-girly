@@ -57,7 +57,7 @@ else
   let s:term = 'cterm'
   let s:n0 = '238'
   let s:n1 = '95'
-  let s:n2 = '180'
+  let s:n2 = '138'
   let s:n3 = '253'
   let s:n4 = '15'
   let s:b1 = '243'
