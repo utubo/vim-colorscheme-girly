@@ -67,7 +67,7 @@ else
   let s:n3 = '253'
   let s:n4 = '15'
   let s:b1 = '243'
-  let s:b2 = '109'
+  let s:b2 = '217'
   let s:b3 = '110'
   let s:b4 = '153'
   let s:b9 = '153'
