@@ -219,10 +219,10 @@ exe 'hi DiffText'      s:fg s:g1 s:bg s:g3 s:none
 " -------------------
 " - Completion menu -
 " -------------------
-exe 'hi Pmenu'         s:fg s:n1 s:bg s:b3
-hi! link PmenuSel Cursor
-exe 'hi PmenuSbar'     s:bg s:b1
-exe 'hi PmenuThumb'    s:bg s:b3
+exe 'hi Pmenu'         s:fg s:n1 s:bg s:n3
+hi! link PmenuSel Visual
+exe 'hi PmenuSbar'     s:bg s:n2
+exe 'hi PmenuThumb'    s:bg s:n3
 
 " ------------
 " - Spelling -
