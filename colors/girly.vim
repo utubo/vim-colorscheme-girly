@@ -30,10 +30,10 @@ let g:colors_name = s:colors_name
 if has('gui_running') || &termguicolors
   let s:term = 'gui'
   let s:n0 = '#6b5457'
-  let s:n1 = '#877477'
-  let s:n2 = '#c1b6b7'
-  let s:n3 = '#ded7d7'
-  let s:n4 = '#fbf8f7'
+  let s:n1 = '#877375'
+  let s:n2 = '#bfb1b1'
+  let s:n3 = '#dbd0cf'
+  let s:n4 = '#f7f0ee'
   let s:b1 = '#766f78'
   let s:b2 = '#8ca6bb'
   let s:b3 = '#97c2dd'
@@ -61,11 +61,11 @@ if has('gui_running') || &termguicolors
 else
   set t_Co=256
   let s:term = 'cterm'
-  let s:n0 = '238'
-  let s:n1 = '95'
-  let s:n2 = '138'
-  let s:n3 = '253'
-  let s:n4 = '15'
+  let s:n0 = '59'
+  let s:n1 = '8'
+  let s:n2 = '250'
+  let s:n3 = '188'
+  let s:n4 = '255'
   let s:b1 = '243'
   let s:b2 = '217'
   let s:b3 = '110'
@@ -268,19 +268,10 @@ else
   let g:rcsv_colorpairs = [[s:b4, 'Gray'], [s:g4, 'Gray'], [s:y4, 'Gray'], [s:r4, 'Gray']]
 endif
 
-function s:CustomSyntax()
-  if g:colors_name != s:colors_name
-    exe 'augroup CustomSyntax_' . s:colors_name . '|au!|augroup END'
-    return
-  endif
-  " GitGutter
-  exe 'hi GitGutterAdd' s:fg s:g3 s:bg s:n1
-  exe 'hi GitGutterChange' s:fg s:y3 s:bg s:n1
-  exe 'hi GitGutterDelete' s:fg s:r3 s:bg s:n1
-  hi! link diffAdded DiffAdd
-  hi! link diffChanged DiffChange
-  hi! link diffRemoved DiffDelete
-endfunction
-
-exe 'augroup CustomSyntax_' . s:colors_name . '|au!|au ColorScheme,Syntax * call <SID>CustomSyntax()|augroup END'
-call s:CustomSyntax()
+" GitGutter
+exe 'hi GitGutterAdd' s:fg s:g3 s:bg s:n1
+exe 'hi GitGutterChange' s:fg s:y3 s:bg s:n1
+exe 'hi GitGutterDelete' s:fg s:r3 s:bg s:n1
+hi! link diffAdded DiffAdd
+hi! link diffChanged DiffChange
+hi! link diffRemoved DiffDelete
