@@ -38,7 +38,7 @@ if has('gui_running') || &termguicolors
   let s:b2 = '#8ca6bb'
   let s:b3 = '#97c2dd'
   let s:b4 = '#a3deff'
-  let s:b9 = '#a3deff'
+  let s:b9 = '#62bbfd'
   let s:g1 = '#886f5f'
   let s:g2 = '#c3a570'
   let s:g3 = '#e0c078'
@@ -70,7 +70,7 @@ else
   let s:b2 = '217'
   let s:b3 = '110'
   let s:b4 = '153'
-  let s:b9 = '153'
+  let s:b9 = '75'
   let s:g1 = '95'
   let s:g2 = '179'
   let s:g3 = '180'
@@ -159,7 +159,7 @@ hi! link WildMenu Visual
 " - Visual aid -
 " --------------
 exe 'hi MatchParen'    s:fg s:b4 s:bg s:n1
-exe 'hi Visual'        s:fg s:n4 s:bg s:b2 s:none
+exe 'hi Visual'        s:fg s:n0 s:bg s:y4 s:none
 exe 'hi VisualNOS'     s:fg s:n3 s:bg s:n1 s:none
 exe 'hi NonText'       s:fg s:n1 s:none
 
