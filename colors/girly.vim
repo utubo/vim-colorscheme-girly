@@ -76,13 +76,13 @@ else
   let s:g3 = '180'
   let s:g4 = '222'
   let s:g9 = '214'
-  let s:y1 = '95'
-  let s:y2 = '138' " not used
-  let s:y3 = '174'
+  let s:y1 = '131'
+  let s:y2 = '169' " not used
+  let s:y3 = '211'
   let s:y4 = '217'
   let s:y9 = '211'
   let s:r1 = '96'
-  let s:r2 = '139' " not used
+  let s:r2 = '134'
   let s:r3 = '176'
   let s:r4 = '213'
   let s:r9 = '171'
@@ -275,3 +275,4 @@ exe 'hi GitGutterDelete' s:fg s:r3 s:bg s:n1
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
+
