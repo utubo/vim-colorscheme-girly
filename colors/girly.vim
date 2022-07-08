@@ -48,7 +48,7 @@ if has('gui_running') || &termguicolors
   let s:y2 = '#c38795' " not used
   let s:y3 = '#e198aa'
   let s:y4 = '#ffaabf'
-  let s:y9 = '#fe78a7'
+  let s:y9 = '#fd86aa'
   let s:r1 = '#875e76'
   let s:r2 = '#bf72b5'
   let s:r3 = '#db7cd4'
@@ -254,8 +254,8 @@ exe 'hi EasyMotionTarget2First' s:fg s:g4 s:bg s:n0
 hi! link EasyMotionTarget2Second EasyMotionTarget2First
 
 " ALE
-exe 'hi ALEErrorSign' s:fg s:r4 s:bg s:n1
-exe 'hi ALEWarningSign' s:fg s:y4 s:bg s:n1
+exe 'hi ALEErrorSign' s:fg s:y4 s:bg s:n1
+exe 'hi ALEWarningSign' s:fg s:g4 s:bg s:n1
 
 " rainbow
 let g:rainbow_conf = get(g:, 'rainbow_conf', {})
@@ -275,4 +275,5 @@ exe 'hi GitGutterDelete' s:fg s:r3 s:bg s:n1
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
+
 
