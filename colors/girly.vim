@@ -61,10 +61,10 @@ if has('gui_running') || &termguicolors
 else
   set t_Co=256
   let s:term = 'cterm'
-  let s:n0 = '59'
-  let s:n1 = '8'
-  let s:n2 = '250'
-  let s:n3 = '188'
+  let s:n0 = '95'
+  let s:n1 = '138'
+  let s:n2 = '181'
+  let s:n3 = '224'
   let s:n4 = '255'
   let s:b1 = '243'
   let s:b2 = '217'
@@ -275,5 +275,3 @@ exe 'hi GitGutterDelete' s:fg s:r3 s:bg s:n1
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
 hi! link diffRemoved DiffDelete
-
-
