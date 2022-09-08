@@ -147,8 +147,10 @@ hi! link IncSearch Cursor
 " -----------------
 " - Prompt/Status -
 " -----------------
-exe 'hi StatusLine'    s:fg s:n2 s:bg s:n1
-exe 'hi StatusLineNC'  s:fg s:n3 s:bg s:n2
+exe 'hi StatusLine'    s:fg s:n2 s:bg s:n4
+exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:n3
+exe 'hi StatusLineTerm'    s:fg s:n4 s:bg s:y3
+exe 'hi StatusLineTermNC'  s:fg s:n3 s:bg s:y1
 exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
 exe 'hi Title'         s:fg s:b3 s:bg s:n0 s:bold
 exe 'hi ModeMsg'       s:fg s:n3 s:bg s:n0 s:none
@@ -160,7 +162,7 @@ hi! link WildMenu Visual
 " --------------
 exe 'hi MatchParen'    s:fg s:b4 s:bg s:n1
 exe 'hi Visual'        s:fg s:n0 s:bg s:y4 s:none
-exe 'hi VisualNOS'     s:fg s:n3 s:bg s:n1 s:none
+exe 'hi VisualNOS'     s:fg s:n0 s:bg s:y3 s:none
 exe 'hi NonText'       s:fg s:n1 s:none
 
 exe 'hi Todo'          s:fg s:b4 s:bg 'NONE' s:bold
