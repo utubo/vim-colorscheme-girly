@@ -66,8 +66,8 @@ else
   let s:n2 = '181'
   let s:n3 = '224'
   let s:n4 = '255'
-  let s:b1 = '68'
-  let s:b2 = '217'
+  let s:b1 = '243'
+  let s:b2 = '68'
   let s:b3 = '110'
   let s:b4 = '153'
   let s:b9 = '75'
@@ -177,7 +177,7 @@ hi! link SpecialKey NonText
 exe 'hi Function'      s:fg s:b2
 exe 'hi Identifier '   s:fg s:n3
 exe 'hi Constant'      s:fg s:b2
-exe 'hi String'        s:fg s:b3 s:bg s:n1
+exe 'hi String'        s:fg s:b4 s:bg s:n1
 exe 'hi Character'     s:fg s:b2
 exe 'hi Number'        s:fg s:b2
 hi! link Boolean Number
