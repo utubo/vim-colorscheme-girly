@@ -147,15 +147,10 @@ hi! link IncSearch Cursor
 " -----------------
 " - Prompt/Status -
 " -----------------
-<<<<<<< HEAD
 exe 'hi StatusLine'    s:fg s:n3 s:bg s:n1 s:none
 exe 'hi StatusLineNC'  s:fg s:n2 s:bg s:n1 s:none
-=======
-exe 'hi StatusLine'    s:fg s:n2 s:bg s:n4
-exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:n3
 exe 'hi StatusLineTerm'    s:fg s:n4 s:bg s:y3
 exe 'hi StatusLineTermNC'  s:fg s:n3 s:bg s:y1
->>>>>>> d9574f69c56580c7605c49ae6d8f8f6b9082be39
 exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
 exe 'hi Title'         s:fg s:b3 s:bg s:n0 s:bold
 exe 'hi ModeMsg'       s:fg s:n3 s:bg s:n0 s:none
@@ -283,4 +278,3 @@ exe 'hi GitGutterChange' s:fg s:g4 s:bg s:n1
 hi! link diffAdded DiffAdd
 hi! link diffRemoved DiffDelete
 hi! link diffChanged DiffChange
-
