@@ -133,9 +133,9 @@ exe 'hi Folded'        s:fg s:n2 s:bg s:n0
 " -------------------------
 exe 'hi VertSplit'     s:fg s:n1 s:bg s:n1
 exe 'hi ColorColumn'   s:fg s:n2 s:bg s:n1
-exe 'hi TabLine'       s:fg s:n3 s:bg s:n1 s:none
+exe 'hi TabLine'       s:fg s:n2 s:bg s:n1 s:none
 exe 'hi TabLineFill'   s:fg s:n1 s:bg s:n1 s:none
-exe 'hi TabLineSel'    s:fg s:b3 s:bg s:n0 s:bold
+exe 'hi TabLineSel'    s:fg s:y3 s:bg s:n0 s:bold
 
 " -------------------------------
 " - File Navigation / Searching -
