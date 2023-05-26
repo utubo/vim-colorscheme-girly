@@ -66,14 +66,14 @@ else
   let s:n2 = '181'
   let s:n3 = '224'
   let s:n4 = '255'
-  let s:b1 = '243'
-  let s:b2 = '68'
-  let s:b3 = '110'
-  let s:b4 = '153'
+  let s:b1 = '68'
+  let s:b2 = '110'
+  let s:b3 = '153'
+  let s:b4 = '195'
   let s:b9 = '75'
   let s:g1 = '95'
   let s:g2 = '179'
-  let s:g3 = '180'
+  let s:g3 = '222'
   let s:g4 = '222'
   let s:g9 = '214'
   let s:y1 = '131'
@@ -114,7 +114,7 @@ let s:undercurl = s:style.'undercurl'
 " - Base -
 " --------
 exe 'hi Normal'        s:fg s:n3 s:bg s:n0
-exe 'hi Cursor'        s:fg s:n4 s:bg s:b4
+exe 'hi Cursor'        s:fg s:n0 s:bg s:b3
 exe 'hi CursorIM'      s:fg s:n4 s:bg s:y4
 exe 'hi CursorLine'    s:underline
 exe 'hi LineNr'        s:fg s:n2 s:bg s:n1
@@ -141,7 +141,7 @@ exe 'hi TabLineSel'    s:fg s:y3 s:bg s:n0 s:bold
 " - File Navigation / Searching -
 " -------------------------------
 exe 'hi Directory'     s:fg s:g4
-exe 'hi Search'        s:fg s:n0 s:bg s:g4 s:bold
+exe 'hi Search'        s:fg s:n0 s:bg s:g4 s:none
 hi! link IncSearch Cursor
 
 " -----------------
@@ -160,7 +160,7 @@ hi! link WildMenu Visual
 " --------------
 " - Visual aid -
 " --------------
-exe 'hi MatchParen'    s:fg s:b4 s:bg s:n1
+exe 'hi MatchParen'    s:fg s:b4 s:bg s:n0 s:bold
 exe 'hi Visual'        s:fg s:n0 s:bg s:y4 s:none
 exe 'hi VisualNOS'     s:fg s:n0 s:bg s:y3 s:none
 exe 'hi NonText'       s:fg s:n1 s:none
@@ -179,7 +179,7 @@ hi! link SpecialKey NonText
 exe 'hi Function'      s:fg s:b2
 exe 'hi Identifier '   s:fg s:n3
 exe 'hi Constant'      s:fg s:b2
-exe 'hi String'        s:fg s:b4 s:bg s:n1
+exe 'hi String'        s:fg s:b3 s:bg s:n1
 exe 'hi Character'     s:fg s:b2
 exe 'hi Number'        s:fg s:b2
 hi! link Boolean Number
@@ -273,9 +273,10 @@ endif
 call extend(g:rcsv_colorpairs, g:rcsv_colorpairs)
 
 " GitGutter
-exe 'hi GitGutterAdd' s:fg s:b4 s:bg s:n1
-exe 'hi GitGutterDelete' s:fg s:y4 s:bg s:n1
-exe 'hi GitGutterChange' s:fg s:g4 s:bg s:n1
+" TEST
+exe 'hi GitGutterAdd' s:fg s:b4 s:bg s:b1
+exe 'hi GitGutterDelete' s:fg s:y4 s:bg s:y1
+exe 'hi GitGutterChange' s:fg s:g3 s:bg s:g2
 hi! link diffAdded DiffAdd
 hi! link diffRemoved DiffDelete
 hi! link diffChanged DiffChange
