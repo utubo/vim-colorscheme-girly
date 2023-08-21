@@ -147,8 +147,8 @@ hi! link IncSearch Cursor
 " -----------------
 " - Prompt/Status -
 " -----------------
-exe 'hi StatusLine'    s:fg s:n3 s:bg s:n1 s:none
-exe 'hi StatusLineNC'  s:fg s:n2 s:bg s:n1 s:none
+exe 'hi StatusLine'    s:fg s:n0 s:bg s:y3 s:none
+exe 'hi StatusLineNC'  s:fg s:n1 s:bg s:y4 s:none
 exe 'hi StatusLineTerm'    s:fg s:n4 s:bg s:m4
 exe 'hi StatusLineTermNC'  s:fg s:n3 s:bg s:m2
 exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
@@ -273,10 +273,9 @@ endif
 call extend(g:rcsv_colorpairs, g:rcsv_colorpairs)
 
 " GitGutter
-" TEST
-exe 'hi GitGutterAdd' s:fg s:b4 s:bg s:b1
-exe 'hi GitGutterDelete' s:fg s:y4 s:bg s:y1
-exe 'hi GitGutterChange' s:fg s:g3 s:bg s:g2
+exe 'hi GitGutterAdd' s:fg s:b3 s:bg s:b1
+exe 'hi GitGutterDelete' s:fg s:y2 s:bg s:y1
+exe 'hi GitGutterChange' s:fg s:g3 s:bg s:g1
 hi! link diffAdded DiffAdd
 hi! link diffRemoved DiffDelete
 hi! link diffChanged DiffChange
