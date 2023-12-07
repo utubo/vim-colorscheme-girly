@@ -71,7 +71,7 @@ else
   let s:b3 = '153'
   let s:b4 = '195'
   let s:b9 = '75'
-  let s:g1 = '95'
+  let s:g1 = '137'
   let s:g2 = '179'
   let s:g3 = '222'
   let s:g4 = '222'
@@ -215,8 +215,8 @@ exe 'hi PreProc' s:fg s:b3
 " --------
 exe 'hi DiffAdd'       s:fg s:b3 s:bg s:b1
 exe 'hi DiffDelete'    s:fg s:y2 s:bg s:y1
-exe 'hi DiffChange'    s:fg s:g3 s:bg s:g1
-exe 'hi DiffText'      s:fg s:n3 s:bg s:g2 s:none
+exe 'hi DiffChange'    s:fg s:g2 s:bg s:g1
+exe 'hi DiffText'      s:fg s:n4 s:bg s:g2 s:none
 
 " -------------------
 " - Completion menu -
