@@ -160,7 +160,7 @@ hi! link WildMenu Visual
 " --------------
 " - Visual aid -
 " --------------
-exe 'hi MatchParen'    s:fg s:g3 s:bg s:n0 s:bold
+exe 'hi MatchParen'    s:fg s:y4 s:bg s:n0 s:bold
 exe 'hi Visual'        s:fg s:n0 s:bg s:y4 s:none
 exe 'hi VisualNOS'     s:fg s:n0 s:bg s:y3 s:none
 exe 'hi NonText'       s:fg s:n1 s:none
