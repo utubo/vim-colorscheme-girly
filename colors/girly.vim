@@ -274,9 +274,9 @@ endif
 call extend(g:rcsv_colorpairs, g:rcsv_colorpairs)
 
 " GitGutter
-exe 'hi GitGutterAdd' s:fg s:b3 s:bg s:b1
-exe 'hi GitGutterDelete' s:fg s:y2 s:bg s:y1
-exe 'hi GitGutterChange' s:fg s:g3 s:bg s:g1
+exe 'hi GitGutterAdd' s:fg s:b3 s:bg s:b2
+exe 'hi GitGutterDelete' s:fg s:y4 s:bg s:y2
+exe 'hi GitGutterChange' s:fg s:g3 s:bg s:g2
 hi! link diffAdded DiffAdd
 hi! link diffRemoved DiffDelete
 hi! link diffChanged DiffChange
