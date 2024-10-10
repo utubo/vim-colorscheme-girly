@@ -149,8 +149,8 @@ hi! link IncSearch Cursor
 " -----------------
 exe 'hi StatusLine'    s:fg s:y4 s:bg s:n1 s:none
 exe 'hi StatusLineNC'  s:fg s:n2 s:bg s:n1 s:none
-exe 'hi StatusLineTerm'    s:fg s:r4 s:bg s:r2 s:none
-exe 'hi StatusLineTermNC'  s:fg s:r3 s:bg s:r2 s:none
+exe 'hi StatusLineTerm'    s:fg s:y4 s:bg s:r2 s:none
+exe 'hi StatusLineTermNC'  s:fg s:r1 s:bg s:r2 s:none
 exe 'hi Question'      s:fg s:y4 s:bg s:n0 s:none
 exe 'hi Title'         s:fg s:b3 s:bg s:n0 s:bold
 exe 'hi ModeMsg'       s:fg s:n3 s:bg s:n0 s:none
