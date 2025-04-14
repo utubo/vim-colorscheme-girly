@@ -82,12 +82,13 @@ let s:df=has('gui_running') ? 'gui=' : 'cterm='
 let s:dg=s:df.'NONE'
 let s:dh=s:df.'bold'
 let s:di=s:df.'italic'
-let s:dj=s:df.'underline'
-let s:ea=s:df.'undercurl'
+let s:dj=s:df.'reverse'
+let s:ea=s:df.'underline'
+let s:eb=s:df.'undercurl'
 exe 'hi Normal' s:dc s:f s:dd s:c
-exe 'hi Cursor' s:dc s:c s:dd s:j
-exe 'hi CursorIM' s:dc s:g s:dd s:cb
-exe 'hi CursorLine' s:dj
+exe 'hi Cursor' s:dc s:c s:dd s:j s:dg
+exe 'hi CursorIM' s:dc s:g s:dd s:cb s:dg
+exe 'hi CursorLine' s:ea
 exe 'hi LineNr' s:dc s:e s:dd s:d
 exe 'hi CursorLineNR' s:dc s:g s:dd s:d s:dg
 hi! link lCursor CursorIM
@@ -102,7 +103,7 @@ exe 'hi TabLineFill' s:dc s:d s:dd s:d s:dg
 exe 'hi TabLineSel' s:dc s:cb s:dd s:c s:dg
 exe 'hi Directory' s:dc s:bf
 exe 'hi Search' s:dc s:c s:dd s:bf s:dg
-hi! link IncSearch Cursor
+exe 'hi IncSearch' s:dc s:c s:dd s:j s:dg
 exe 'hi StatusLine' s:dc s:cb s:dd s:d s:dg
 exe 'hi StatusLineNC' s:dc s:e s:dd s:d s:dg
 exe 'hi StatusLineTerm' s:dc s:cb s:dd s:ce s:dg
@@ -161,10 +162,10 @@ exe 'hi PmenuExtra' s:dc s:e s:dd s:f
 exe 'hi PmenuExtraSel' s:dc s:e s:dd s:cb
 exe 'hi PmenuSbar' s:dd s:e
 exe 'hi PmenuThumb' s:dd s:f
-exe 'hi SpellBad' s:dc s:cf s:dd s:cd s:de s:cg s:ea
-exe 'hi SpellCap' s:dc s:ca s:dd s:c s:de s:cb s:ea
-exe 'hi SpellLocal' s:dc s:be s:dd s:c s:de s:bf s:ea
-exe 'hi SpellRare' s:dc s:j s:dd s:c s:de s:ba s:ea
+exe 'hi SpellBad' s:dc s:cf s:dd s:cd s:de s:cg s:eb
+exe 'hi SpellCap' s:dc s:ca s:dd s:c s:de s:cb s:eb
+exe 'hi SpellLocal' s:dc s:be s:dd s:c s:de s:bf s:eb
+exe 'hi SpellRare' s:dc s:j s:dd s:c s:de s:ba s:eb
 hi! link Terminal Normal
 if s:b==# 'gui'
 let g:terminal_ansi_colors=[ s:c,s:ce,s:bd,s:bj,s:i,s:da,s:ci,s:f,s:e,s:cg,s:bf,s:cb,s:ba,s:db,s:cj,s:g ]

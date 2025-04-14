@@ -107,6 +107,7 @@ let s:style  = has('gui_running') ? 'gui=' : 'cterm='
 let s:none   = s:style.'NONE'
 let s:bold   = s:style.'bold'
 let s:italic = s:style.'italic'
+let s:reverse = s:style.'reverse'
 let s:underline = s:style.'underline'
 let s:undercurl = s:style.'undercurl'
 
@@ -114,8 +115,8 @@ let s:undercurl = s:style.'undercurl'
 " - Base -
 " --------
 exe 'hi Normal'        s:fg s:n3 s:bg s:n0
-exe 'hi Cursor'        s:fg s:n0 s:bg s:b3
-exe 'hi CursorIM'      s:fg s:n4 s:bg s:y4
+exe 'hi Cursor'        s:fg s:n0 s:bg s:b3 s:none
+exe 'hi CursorIM'      s:fg s:n4 s:bg s:y4 s:none
 exe 'hi CursorLine'    s:underline
 exe 'hi LineNr'        s:fg s:n2 s:bg s:n1
 exe 'hi CursorLineNR'  s:fg s:n4 s:bg s:n1 s:none
@@ -143,7 +144,7 @@ exe 'hi TabLineSel'    s:fg s:y4 s:bg s:n0 s:none
 " -------------------------------
 exe 'hi Directory'     s:fg s:g4
 exe 'hi Search'        s:fg s:n0 s:bg s:g4 s:none
-hi! link IncSearch Cursor
+exe 'hi IncSearch'     s:fg s:n0 s:bg s:b3 s:none
 
 " -----------------
 " - Prompt/Status -
