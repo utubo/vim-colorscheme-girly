@@ -151,11 +151,11 @@ exe 'hi DiffDelete' s:dc s:bj s:dd s:bi
 exe 'hi DiffChange' s:dc s:bd s:dd s:bc
 exe 'hi DiffText' s:dc s:g s:dd s:bd s:dg
 exe 'hi Pmenu' s:dc s:d s:dd s:f
-exe 'hi PMenuSel' s:dc s:c s:dd s:cb s:dg
+exe 'hi PmenuSel' s:dc s:c s:dd s:cb s:dg
 exe 'hi PmenuMatch' s:dc s:bc s:dd s:f
-exe 'hi PMenuMatchSel' s:dc s:bc s:dd s:cb s:dg
+exe 'hi PmenuMatchSel' s:dc s:bc s:dd s:cb s:dg
 exe 'hi PmenuKind' s:dc s:h s:dd s:f
-exe 'hi PMenuKindSel' s:dc s:h s:dd s:cb s:dg
+exe 'hi PmenuKindSel' s:dc s:h s:dd s:cb s:dg
 exe 'hi PmenuExtra' s:dc s:e s:dd s:f
 exe 'hi PmenuExtraSel' s:dc s:e s:dd s:cb
 exe 'hi PmenuSbar' s:dd s:e
