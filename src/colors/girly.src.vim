@@ -223,14 +223,14 @@ exe 'hi DiffText'      s:fg s:n4 s:bg s:g2 s:none
 " -------------------
 " - Completion menu -
 " -------------------
-exe 'hi Pmenu'         s:fg s:n1 s:bg s:n3
+exe 'hi Pmenu'         s:fg s:n3 s:bg s:n1
 exe 'hi PmenuSel'      s:fg s:n0 s:bg s:y4 s:none
-exe 'hi PmenuMatch'    s:fg s:g1 s:bg s:n3
+exe 'hi PmenuMatch'    s:fg s:g2 s:bg s:n1
 exe 'hi PmenuMatchSel' s:fg s:g1 s:bg s:y4 s:none
-exe 'hi PmenuKind'     s:fg s:b1 s:bg s:n3
+exe 'hi PmenuKind'     s:fg s:b3 s:bg s:n1
 exe 'hi PmenuKindSel'  s:fg s:b1 s:bg s:y4 s:none
-exe 'hi PmenuExtra'    s:fg s:n2 s:bg s:n3
-exe 'hi PmenuExtraSel' s:fg s:n2 s:bg s:y4
+exe 'hi PmenuExtra'    s:fg s:n2 s:bg s:n1
+exe 'hi PmenuExtraSel' s:fg s:n3 s:bg s:y4
 exe 'hi PmenuSbar'     s:bg s:n2
 exe 'hi PmenuThumb'    s:bg s:n3
 
