@@ -88,7 +88,7 @@ let s:eb=s:df.'undercurl'
 exe 'hi Normal' s:dc s:f s:dd s:c
 exe 'hi Cursor' s:dc s:c s:dd s:j s:dg
 exe 'hi CursorIM' s:dc s:g s:dd s:cb s:dg
-exe 'hi CursorLine' s:ea
+exe 'hi CursorLine' s:dd s:d s:dg
 exe 'hi LineNr' s:dc s:e s:dd s:d
 exe 'hi CursorLineNR' s:dc s:g s:dd s:d s:dg
 hi! link lCursor CursorIM
