@@ -153,10 +153,10 @@ exe 'hi StatusLine'    s:fg s:y4 s:bg s:n1 s:none
 exe 'hi StatusLineNC'  s:fg s:n2 s:bg s:n1 s:none
 exe 'hi StatusLineTerm'    s:fg s:y4 s:bg s:r2 s:none
 exe 'hi StatusLineTermNC'  s:fg s:r1 s:bg s:r2 s:none
-exe 'hi Question'      s:fg s:y4 s:bg 'None' s:none
-exe 'hi Title'         s:fg s:b3 s:bg 'None' s:bold
-exe 'hi ModeMsg'       s:fg s:n3 s:bg 'None' s:none
-exe 'hi MoreMsg'       s:fg s:n2 s:bg 'None' s:none
+exe 'hi Question'      s:fg s:y4 s:bg 'NONE' s:none
+exe 'hi Title'         s:fg s:b3 s:bg 'NONE' s:bold
+exe 'hi ModeMsg'       s:fg s:n3 s:bg 'NONE' s:none
+exe 'hi MoreMsg'       s:fg s:n2 s:bg 'NONE' s:none
 hi! link WildMenu Visual
 
 " --------------
@@ -183,7 +183,7 @@ exe 'hi Identifier '   s:fg s:n3
 exe 'hi Constant'      s:fg s:b2
 exe 'hi String'        s:fg s:b3 s:bg s:n1
 exe 'hi Character'     s:fg s:b2
-exe 'hi Number'        s:fg s:b2 s:bg 'None'
+exe 'hi Number'        s:fg s:b2 s:bg 'NONE'
 hi! link Boolean Number
 hi! link Float Number
 
@@ -238,9 +238,9 @@ exe 'hi PmenuThumb'    s:bg s:n3
 " - Spelling -
 " ------------
 exe 'hi SpellBad'      s:fg s:r3 s:bg s:r1 s:sp s:r4 s:undercurl
-exe 'hi SpellCap'      s:fg s:y3 s:bg 'None' s:sp s:y4 s:undercurl
-exe 'hi SpellLocal'    s:fg s:g3 s:bg 'None' s:sp s:g4 s:undercurl
-exe 'hi SpellRare'     s:fg s:b3 s:bg 'None' s:sp s:b4 s:undercurl
+exe 'hi SpellCap'      s:fg s:y3 s:bg 'NONE' s:sp s:y4 s:undercurl
+exe 'hi SpellLocal'    s:fg s:g3 s:bg 'NONE' s:sp s:g4 s:undercurl
+exe 'hi SpellRare'     s:fg s:b3 s:bg 'NONE' s:sp s:b4 s:undercurl
 
 " ---------------------
 " - Terminal -

@@ -108,10 +108,10 @@ exe 'hi StatusLine' s:dc s:cb s:dd s:d s:dg
 exe 'hi StatusLineNC' s:dc s:e s:dd s:d s:dg
 exe 'hi StatusLineTerm' s:dc s:cb s:dd s:ce s:dg
 exe 'hi StatusLineTermNC' s:dc s:cd s:dd s:ce s:dg
-exe 'hi Question' s:dc s:cb s:dd 'None' s:dg
-exe 'hi Title' s:dc s:j s:dd 'None' s:dh
-exe 'hi ModeMsg' s:dc s:f s:dd 'None' s:dg
-exe 'hi MoreMsg' s:dc s:e s:dd 'None' s:dg
+exe 'hi Question' s:dc s:cb s:dd 'NONE' s:dg
+exe 'hi Title' s:dc s:j s:dd 'NONE' s:dh
+exe 'hi ModeMsg' s:dc s:f s:dd 'NONE' s:dg
+exe 'hi MoreMsg' s:dc s:e s:dd 'NONE' s:dg
 hi! link WildMenu Visual
 exe 'hi MatchParen' s:dc s:cb s:dd 'NONE' s:dh
 exe 'hi Visual' s:dc s:c s:dd s:cb s:dg
@@ -129,7 +129,7 @@ exe 'hi Identifier ' s:dc s:f
 exe 'hi Constant' s:dc s:i
 exe 'hi String' s:dc s:j s:dd s:d
 exe 'hi Character' s:dc s:i
-exe 'hi Number' s:dc s:i s:dd 'None'
+exe 'hi Number' s:dc s:i s:dd 'NONE'
 hi! link Boolean Number
 hi! link Float Number
 exe 'hi Statement' s:dc s:j
@@ -163,9 +163,9 @@ exe 'hi PmenuExtraSel' s:dc s:f s:dd s:cb
 exe 'hi PmenuSbar' s:dd s:e
 exe 'hi PmenuThumb' s:dd s:f
 exe 'hi SpellBad' s:dc s:cf s:dd s:cd s:de s:cg s:eb
-exe 'hi SpellCap' s:dc s:ca s:dd 'None' s:de s:cb s:eb
-exe 'hi SpellLocal' s:dc s:be s:dd 'None' s:de s:bf s:eb
-exe 'hi SpellRare' s:dc s:j s:dd 'None' s:de s:ba s:eb
+exe 'hi SpellCap' s:dc s:ca s:dd 'NONE' s:de s:cb s:eb
+exe 'hi SpellLocal' s:dc s:be s:dd 'NONE' s:de s:bf s:eb
+exe 'hi SpellRare' s:dc s:j s:dd 'NONE' s:de s:ba s:eb
 hi! link Terminal Normal
 if s:b==# 'gui'
 let g:terminal_ansi_colors=[ s:c,s:ce,s:bd,s:bj,s:i,s:da,s:ci,s:f,s:e,s:cg,s:bf,s:cb,s:ba,s:db,s:cj,s:g ]
