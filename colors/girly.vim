@@ -162,7 +162,7 @@ exe 'hi PmenuExtra' s:dc s:e s:dd s:d
 exe 'hi PmenuExtraSel' s:dc s:f s:dd s:cb
 exe 'hi PmenuSbar' s:dd s:e
 exe 'hi PmenuThumb' s:dd s:f
-exe 'hi SpellBad' s:dc s:cf s:dd s:cd s:de s:cg s:eb
+exe 'hi SpellBad' s:dc s:cb s:dd 'NONE' s:de s:cg s:eb
 exe 'hi SpellCap' s:dc s:ca s:dd 'NONE' s:de s:cb s:eb
 exe 'hi SpellLocal' s:dc s:be s:dd 'NONE' s:de s:bf s:eb
 exe 'hi SpellRare' s:dc s:j s:dd 'NONE' s:de s:ba s:eb
