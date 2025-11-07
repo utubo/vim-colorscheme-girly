@@ -101,6 +101,9 @@ exe 'hi ColorColumn' s:dc s:e s:dd s:d
 exe 'hi TabLine' s:dc s:e s:dd s:d s:dg
 exe 'hi TabLineFill' s:dc s:d s:dd s:d s:dg
 exe 'hi TabLineSel' s:dc s:cb s:dd s:c s:dg
+exe 'hi TabPanel' s:dc s:d s:dd s:bj s:dg
+exe 'hi TabPanelFill' s:dc s:bj s:dd s:d s:dg
+exe 'hi TabPanelSel' s:dc s:g s:dd s:h s:dg
 exe 'hi Directory' s:dc s:bf
 exe 'hi Search' s:dc s:c s:dd s:bf s:dg
 exe 'hi IncSearch' s:dc s:c s:dd s:j s:dg

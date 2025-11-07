@@ -138,6 +138,9 @@ exe 'hi ColorColumn'   s:fg s:n2 s:bg s:n1
 exe 'hi TabLine'       s:fg s:n2 s:bg s:n1 s:none
 exe 'hi TabLineFill'   s:fg s:n1 s:bg s:n1 s:none
 exe 'hi TabLineSel'    s:fg s:y4 s:bg s:n0 s:none
+exe 'hi TabPanel'      s:fg s:n1 s:bg s:y2 s:none
+exe 'hi TabPanelFill'  s:fg s:y2 s:bg s:n1 s:none
+exe 'hi TabPanelSel'   s:fg s:n4 s:bg s:b1 s:none
 
 " -------------------------------
 " - File Navigation / Searching -
