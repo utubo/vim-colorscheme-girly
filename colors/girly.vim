@@ -89,7 +89,7 @@ exe 'hi Normal' s:dc s:f s:dd s:c
 exe 'hi Cursor' s:dc s:c s:dd s:j s:dg
 exe 'hi CursorIM' s:dc s:g s:dd s:cb s:dg
 exe 'hi CursorLine' s:dd s:d s:dg
-exe 'hi LineNr' s:dc s:e s:dd s:d
+exe 'hi LineNr' s:dc s:e s:dd s:bi
 exe 'hi CursorLineNR' s:dc s:g s:dd s:d s:dg
 hi! link lCursor CursorIM
 exe 'hi CursorColumn' s:dd s:h
@@ -101,7 +101,7 @@ exe 'hi ColorColumn' s:dc s:e s:dd s:d
 exe 'hi TabLine' s:dc s:e s:dd s:d s:dg
 exe 'hi TabLineFill' s:dc s:d s:dd s:d s:dg
 exe 'hi TabLineSel' s:dc s:cb s:dd s:c s:dg
-exe 'hi TabPanel' s:dc s:d s:dd s:bj s:dg
+exe 'hi TabPanel' s:dc s:e s:dd s:d s:dg
 exe 'hi TabPanelFill' s:dc s:bj s:dd s:d s:dg
 exe 'hi TabPanelSel' s:dc s:g s:dd s:h s:dg
 exe 'hi Directory' s:dc s:bf

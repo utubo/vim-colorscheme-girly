@@ -118,7 +118,7 @@ exe 'hi Normal'        s:fg s:n3 s:bg s:n0
 exe 'hi Cursor'        s:fg s:n0 s:bg s:b3 s:none
 exe 'hi CursorIM'      s:fg s:n4 s:bg s:y4 s:none
 exe 'hi CursorLine'    s:bg s:n1 s:none
-exe 'hi LineNr'        s:fg s:n2 s:bg s:n1
+exe 'hi LineNr'        s:fg s:n2 s:bg s:y1
 exe 'hi CursorLineNR'  s:fg s:n4 s:bg s:n1 s:none
 hi! link lCursor CursorIM
 
@@ -138,7 +138,7 @@ exe 'hi ColorColumn'   s:fg s:n2 s:bg s:n1
 exe 'hi TabLine'       s:fg s:n2 s:bg s:n1 s:none
 exe 'hi TabLineFill'   s:fg s:n1 s:bg s:n1 s:none
 exe 'hi TabLineSel'    s:fg s:y4 s:bg s:n0 s:none
-exe 'hi TabPanel'      s:fg s:n1 s:bg s:y2 s:none
+exe 'hi TabPanel'      s:fg s:n2 s:bg s:n1 s:none
 exe 'hi TabPanelFill'  s:fg s:y2 s:bg s:n1 s:none
 exe 'hi TabPanelSel'   s:fg s:n4 s:bg s:b1 s:none
 
